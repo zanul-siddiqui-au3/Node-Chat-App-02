@@ -15,7 +15,7 @@ app.use(express.static(publicPath));
 
 io.on("connection", (socket) => {
   socket.on("disconnect", () => {
-    console.log(`User is Disconnected`);
+    console.log(`User is Disconnectedssss`);
   });
 });
 
